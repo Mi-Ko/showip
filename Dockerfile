@@ -1,5 +1,3 @@
-# Multi-stage build setup (https://docs.docker.com/develop/develop-images/multistage-build/)
-
 # Stage 1 
 FROM maven:3.6-jdk-8-alpine AS builder
 RUN mvn -version
